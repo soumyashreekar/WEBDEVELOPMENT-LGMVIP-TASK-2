@@ -1,0 +1,45 @@
+.App {
+    background-color: #26a69a;
+    padding-bottom: 2em;
+  }
+  
+  .userData{
+      text-align: center;
+      background-color: #26a69a;
+      height: 150vh;
+  }
+  
+  .loadMoreBtn{
+      margin-left: 0;
+      margin-bottom: 1.2%;
+      margin-top: 1%;
+  }
+  
+  .dataLoader{
+    text-align:center;
+    background-color: #26a69a;
+  }
+  
+  .load{
+    padding-top: 20%;
+    background-color: #26a69a;
+  }
+   
+  .cards {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 0.5rem;
+  }
+   
+  @media (min-width: 600px) and  (max-width:899px){
+    .cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+   
+  @media (min-width: 900px) {
+    .cards {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
